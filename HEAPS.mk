@@ -5,18 +5,18 @@
 ## Release
 ProjectName            :=HEAPS
 ConfigurationName      :=Release
-WorkspacePath          := "C:\tcs"
-ProjectPath            := "C:\tcs\HEAPS"
+WorkspacePath          :=C:/tcs
+ProjectPath            :=C:/tcs/HEAPS
 IntermediateDirectory  :=./Release
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=MADAN KAPOOR
-Date                   :=25/03/2016
-CodeLitePath           :="C:\Program Files\CodeLite"
-LinkerName             :=C:/MinGW/bin/g++.exe
-SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
+Date                   :=14/05/2016
+CodeLitePath           :="C:/Program Files/CodeLite"
+LinkerName             :=C:/MinGW2/bin/g++.exe
+SharedObjectLinkerName :=C:/MinGW2/bin/g++.exe -shared -fPIC
 ObjectSuffix           :=.o
 DependSuffix           :=.o.d
 PreprocessSuffix       :=.i
@@ -36,7 +36,7 @@ ObjectsFileList        :="HEAPS.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
-RcCompilerName         :=C:/MinGW/bin/windres.exe
+RcCompilerName         :=C:/MinGW2/bin/windres.exe
 LinkOptions            :=  
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
@@ -49,13 +49,13 @@ LibPath                := $(LibraryPathSwitch).
 ## Common variables
 ## AR, CXX, CC, AS, CXXFLAGS and CFLAGS can be overriden using an environment variables
 ##
-AR       := C:/MinGW/bin/ar.exe rcu
-CXX      := C:/MinGW/bin/g++.exe
-CC       := C:/MinGW/bin/gcc.exe
+AR       := C:/MinGW2/bin/ar.exe rcu
+CXX      := C:/MinGW2/bin/g++.exe
+CC       := C:/MinGW2/bin/gcc.exe
 CXXFLAGS :=  -O2 -Wall $(Preprocessors)
 CFLAGS   :=  -O2 -Wall $(Preprocessors)
 ASFLAGS  := 
-AS       := C:/MinGW/bin/as.exe
+AS       := C:/MinGW2/bin/as.exe
 
 
 ##
